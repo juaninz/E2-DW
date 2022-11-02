@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    font-family: 'Spline Sans', sans-serif;
+}
+
+.div-logo{
+    padding: 2rem;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 2em;
+}
+
+nav ul li a {
+    color: #fffffffb;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+nav li a:hover,
+li a:focus {
+    background-size: 100% 2px;
+}
